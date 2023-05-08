@@ -6,7 +6,7 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 
 ## Wire Frames
 
-![image]  https://ibb.co/9yvxjRH
+
 
 ![Basketball Game Update](https://user-images.githubusercontent.com/131619471/236854689-bdbf690a-d878-4f71-9956-9ace4f9113f3.jpg)
 
