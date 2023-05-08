@@ -8,8 +8,11 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 
 ![image]  https://ibb.co/9yvxjRH
 
-**First Version:https://ibb.co/KLqTJ7X**
+![Basketball Game Update](https://user-images.githubusercontent.com/131619471/236854689-bdbf690a-d878-4f71-9956-9ace4f9113f3.jpg)
 
+![Basketball Game Stats tab](https://user-images.githubusercontent.com/131619471/236854736-92cd4360-6cf7-4234-b50e-960c80e7ec25.jpg)
+
+![Screen Shot 2023-05-08 at 10 40 12 AM](https://user-images.githubusercontent.com/131619471/236855461-55475b8d-8007-4f89-ac7e-609330fff1dc.jpg)
 
 
 **Initial Landing View**
@@ -23,9 +26,10 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I want the game to list out all the tasks somewhere and assign it to a number that I can input to recognize what task it is 
 - As a player, I would like for the score to increase when the player inputs a task number 
 - As a player, I'd like to see an animation or pop up when I score a 3 pointer
+- As a player, I'd like a continous of a basketball bouncing or something relevant.
 - As a player, I would like to be informed with some indication when I input a task so that I know it worked 
 - As a player I would like to be able to restart the game when I press the reset button
--As a player, I'd like to have a spot where I can input tasks 
+-As a player, I'd like to have a button where I can see the task and the number assigned to it.
 - As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.\*\*
 
 #### Stretch Goals
@@ -34,14 +38,8 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I would like to hear an audible swish sound when I score a basket.
 -As a player, I'd like to have a score of yourself from the day before after you hit the reset button. (next day button instead?)
 - As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
--As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time 
+-As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time
+-As a player, I'd like tabs in the task section that break down the day.
 
 
 
-**For Student Only**
-**(the opponent is yourself from the day before, the goal is to beat yourself from the day before. you are your biggest opponent)?**
-**(fouls take awway points? a foul is something you shouldn't do in the day like eat cake)?**
-**(the computer generates points and you have to try to beat that? thats the opponent. it generates points randomly every time you score.)?**
-**(4 Quarters? score resets each quarter to keep track of each quarter of the day)?**
-**(Rewards)**
-**(Crowd cheering when you score a basket)**
