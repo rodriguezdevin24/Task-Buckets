@@ -44,6 +44,8 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I'd like tabs in the task section that break down the day.
 - As a player, I'd like to see a section that keeps track of the streak of how many days consecutively you play. 
 - As a player, I'd like a place where I can input a task and assign it to a number.
+- As a player, I'd like to see a visual of the court and the numbers of task assigned to the spot shot
+
 
 
 
