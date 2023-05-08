@@ -5,7 +5,9 @@
 The game that I would like to create for my Unit 1 Assignment is a game called King of the Task Court. The game is designed to help you keep track of your daily tasks. The game is designed to resemble a basketball scoreboard to keep track of the tasks you accomplish. I want to have somewhere that has a layout of the tasks when you click on it, and when you input the number of the task, it adds one, two, or three points. I want it to be able to tell you the score at the end and each day you can vs yourself from the day before and try to score the same or more points. 
 
 ## Wire Frames
-!image https://ibb.co/KLqTJ7X
+![image]  https://ibb.co/KLqTJ7X
+
+
 **Initial Landing View**
 
 
@@ -32,7 +34,15 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 
 
 
+//For Student Only//
+(the opponent is yourself from the day before, the goal is to beat yourself from the day before. you are your biggest opponent)?
 
-(the opponent is yourself from the day before, the goal is to beat yourself from the day before. you are your biggest opponent)
+(fouls take awway points? a foul is something you shouldn't do in the day like eat cake)?
 
-(fouls take awway points? a foul is something you shouldn't do in the day like eat cake)
+(the computer generates points and you have to try to beat that? thats the opponent. it generates points randomly every time you score.)?
+
+(4 Quarters? score resets each quarter to keep track of each quarter of the day)?
+
+(Rewards)
+
+(Crowd cheering when you score a basket)
