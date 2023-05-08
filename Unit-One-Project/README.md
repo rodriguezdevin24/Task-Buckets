@@ -40,6 +40,7 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
 - As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time
 - As a player, I'd like tabs in the task section that break down the day.
+- As a player, I'd like to see a section that keeps track of the streak of how many days consecutively you play. 
 
 
 
