@@ -35,6 +35,7 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 #### Stretch Goals
 
 - As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
+- As a player, I'd like a section that shows me the highest amount of points I scored
 - As a player, I would like to hear an audible swish sound when I score a basket.
 - As a player, I'd like to have a score of yourself from the day before after you hit the reset button. (next day button instead?)
 - As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
