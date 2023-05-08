@@ -31,6 +31,7 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player I would like to be able to restart the game when I press the reset button
 -As a player, I'd like to have a button where I can see the task and the number assigned to it.
 - As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.\*\*
+- As a player, Id like to see when I lose or win the game
 
 #### Stretch Goals
 
