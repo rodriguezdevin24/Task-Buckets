@@ -1,4 +1,4 @@
-# King of the Task Court!
+# Task Buckets!
 
 ## Project Description 
 
@@ -23,28 +23,22 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 
 #### MVP Goals
 
-- As a player, I want the game to list out all the tasks somewhere and assign it to a number that I can input to recognize what task it is 
-- As a player, I would like for the score to increase when the player inputs a task number 
-- As a player, I'd like to see an animation or pop up when I score a 3 pointer
-- As a player, I'd like a continous of a basketball bouncing or something relevant.
-- As a player, I would like to be informed with some indication when I input a task so that I know it worked 
+- As a player, I'd like to have a button where I can see the task and the number assigned to it.
+- As a player, I'd like to have a stat button where I can see what tasks I accomplished.
 - As a player I would like to be able to restart the game when I press the reset button
--As a player, I'd like to have a button where I can see the task and the number assigned to it.
-- As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.
+- As a player, I'd like an animation of a basketball
+- As a player, I would like for the score to increase when the player inputs a task number 
 - As a player, Id like to see when I lose or win the game
 
 #### Stretch Goals
 
-- As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
 - As a player, I'd like a section that shows me the highest amount of points I scored
 - As a player, I would like to hear an audible swish sound when I score a basket.
-- As a player, I'd like to have a score of yourself from the day before after you hit the reset button. (next day button instead?)
-- As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
-- As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time
-- As a player, I'd like tabs in the task section that break down the day.
-- As a player, I'd like to see a section that keeps track of the streak of how many days consecutively you play. 
 - As a player, I'd like a place where I can input a task and assign it to a number.
-- As a player, I'd like to see a visual of the court and the numbers of task assigned to the spot shot
+- As a player, I'd like tabs in the task section that break down the day.
+- As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
+
+
 
 
 
