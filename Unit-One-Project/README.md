@@ -36,7 +36,7 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I would like to hear an audible swish sound when I score a basket.
 - As a player, I'd like a place where I can input a task and assign it to a number.
 - As a player, I'd like tabs in the task section that break down the day.
-- As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
+- As a player, I would like an animation when I win the game, so that I feel good about my victory
 
 
 
