@@ -29,7 +29,7 @@ To access Task Buckets, visit the following link: [Task Buckets Game](https://zi
 ## Images
 <img width="1433" alt="Screenshot 2023-05-15 at 11 30 17 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/d5786afa-2b99-4a73-b827-f5fd232cbecf">
 <img width="1438" alt="Screenshot 2023-05-15 at 11 30 32 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/dcf7c182-7990-4d58-8109-2ed3340930c2">
-<img width="1433" alt="Screenshot 2023-05-15 at 11 30 17 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/e4936e83-1542-427c-be21-f58ced8cdcf1">
+<img width="1437" alt="Screenshot 2023-05-15 at 11 30 22 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/ce70e797-6260-4429-820a-36211e505603">
 
 ## Instructions
 
