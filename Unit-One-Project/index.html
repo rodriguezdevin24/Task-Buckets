@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Buckets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet"/>
+    <link rel="icon" type ="image/png" href="/favicon.ico">
+    <link rel="shortcut icon" href="#"/>
+  </head>
+  <body>
+    <div id="start-screen" class="screen" style="display: block">
+      <h2>TASK BUCKETS</h2>
+      <button id="start-btn" onclick="start()">PLAY</button>
+      <button id="tutorial-btn" onclick="displayTutorialModal()">
+        TUTORIAL
+      </button>
+      <div id="tutorial-screen-modal" class="modal">
+        <div class="tutorial-modal-content">
+          <span class="tutclose">&times;</span>
+          <div class="tutorial-screen-content">
+            <h1>Welcome to Task Buckets!!</h1>
+            Welcome to the task tracking game Task Buckets! The purpose of this game is designed to help you
+            keep track of your tasks in a fun and interactive way. With this
+            game, you'll be able to easily manage your tasks and increase your
+            productivity.
+
+
+            <h1>How to Play</h1>
+            The game is very simple to play. To get started, lets show you around:
+
+
+            <h3>Tasks Button</h3>
+            The Task button is located at the center of the screen directly below 
+            the backboard. When pressed, the Task button will have a few functionalities. 
+            You will be able to see what tasks you have to do for the day and what number 
+            they are assigned to. Remember the number!! You will need it to shoot the ball
+            into the basket. You can also enter a task and press the add button and the 
+            corresponding task and number will show up. You can also remove your tasks by 
+            pressing rseet!
+            
+
+            <h3>Submit Button</h3>
+            Once you have accomplished the task, enter the number in the prompt box! Press the 
+            shoot! button and your task will be tracked! Please remember to enter a valid task number!
+
+
+            <h3>Stats Button</h3>
+            Once you've completed a task, click on the "Stat" button
+            next to the task in the list. This will mark down the task number accomplished 
+            and you can refer back to the Task button see what tasks you did! Furthermore,
+            when the next day button is pressed, all the tasks accomplished will be cleared!
+           
+
+            <h3>Next Day Button</h3>
+            Once you are complete for the day, or the day is over, whichever comes first,
+            you press the next day button. You are your biggest oppponent. So when the 
+            next day button is pressed, not only is all the information cleared from the stat
+            tab, but the home score updates to 0 and the opponents score updates to the score 
+            from the day before. The purpose of each day is to try to defeat yourself from the 
+            day before!
+           
+
+            <h3>Reset the Game</h3>
+            If you want to start over, click on the "next day" button twice. The first time 
+            will move the score from the home to the opponents side, and the second time will
+            clear the scoreboard to 0!
+            <h1>Conclusion</h1>
+            That's it! With this game, you'll be able to keep track of your
+            tasks and increase your productivity. We hope you enjoy playing Task Buckets!!!!!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="game-screen" class="screen" style="display: none">
+      <div id="wrapper">
+        <header>
+          <h1>TASK BUCKETS</h1>
+        </header>
+        <div class="board">
+          <div class="opponent-score">
+            <div class="score">0</div>
+          </div>
+          <div class="home-score">
+            <div class="score">0</div>
+          </div>
+          <div class="board-title board-title-home">AWAY</div>
+          <div class="board-title board-title-home-2">HOME</div>
+        </div>
+        <div id="prompt">
+          <label for="number-input">Task #</label>
+          <input type="number" id="number-input" min="1" max="15" />
+          <button id="submit-btn">Shoot!</button>
+        </div>
+        <div class="buttons">
+          <button id="stat-btn" onclick="updateStatList()">Stats</button>
+          <button id="task-btn">Tasks</button>
+          <button id="new-day-btn">New Day</button>
+        </div>
+
+        <div id="score-modal" style="display: none">
+          <img
+            src="https://media.tenor.com/gumOL6drquMAAAAd/dunk-slam.gif"
+            alt="loading animation"
+          />
+          <div class="score-modal-background"></div>
+        </div>
+        <div id="winner-modal" style="display: none">
+          <img
+            src="https://media.tenor.com/W8aX0rAvY5MAAAAd/buzzerbeater-basketball.gif"
+            alt="winner animation"
+          />
+        </div>
+        <div id="gamelost-modal" style="display: none">
+          <img
+            src="https://media.tenor.com/ilrpHZUrHgcAAAAC/my-life.gif"
+            alt="game lost animation"/>
+        </div>
+        <div id="gametied-modal" style="display: none">
+          <img
+            src="https://media.tenor.com/Hbm5ksVowZsAAAAC/referee-%E5%B9%B3%E6%89%8B.gif"
+            alt="game tied animation"
+          />
+        </div>
+      </div>
+      <div class="homescreen">
+        <button id="home-btn">Home</button>
+      </div>
+      <!-- Task Screen Modal -->
+      <div id="task-screen-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="task-screen-content">
+            <!-- This is where you will add your text. -->
+            <h3>Tasks List:</h3>
+            <ul id="task-list"></ul>
+            <input type="text" id="task-input" placeholder="Enter a task"/>
+            <button id="add-task-btn">Add</button>
+            <button id="reset-btn">Reset</button>
+          </div>
+        </div>
+      </div>
+      <!-- The Stat Modal -->
+      <div id="stat-screen-modal" class="modal">
+        <div class="stat-modal-content">
+          <span class="close">&times;</span>
+          <div class="stat-screen-content">
+            <h3>Tasks Completed List:</h3>
+            <ul id="stat-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

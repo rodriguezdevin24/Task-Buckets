@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+hello why didnt you upload.
+=======
 # Task Buckets!
 
 ## Project Description 
@@ -44,3 +47,4 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 
 
 
+>>>>>>> 845a01bbf2f4880d85a2902705c36d0fa0f7e8a7
