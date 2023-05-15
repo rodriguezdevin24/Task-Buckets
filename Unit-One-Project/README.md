@@ -29,14 +29,14 @@ The game that I would like to create for my Unit 1 Assignment is a game called K
 - As a player, I'd like to have a button where I can see the task and the number assigned to it.
 - As a player, I'd like to have a stat button where I can see what tasks I accomplished.
 - As a player I would like to be able to restart the game when I press the next day button
-- As a player, I'd like an animation of a basketball
+- As a player, I'd like an animation or gif of something.
 - As a player, I would like for the score to increase when the player inputs a task number 
 - As a player, Id like to see when I lose or win the game
 
 #### Stretch Goals
 
 - As a player, I'd like a section that shows me the highest amount of points I scored
-- As a player, I would like to hear an audible swish sound when I score a basket.
+- As a player, I would like to hear an audible sound when I score a basket.
 - As a player, I'd like a place where I can input a task and assign it to a number.
 - As a player, I'd like tabs in the task section that break down the day.
 - As a player, I would like an animation when I win the game, so that I feel good about my victory
