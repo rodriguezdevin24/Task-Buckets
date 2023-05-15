@@ -42,13 +42,50 @@ To access Task Buckets, visit the following link: [Task Buckets Game](https://zi
 7. Click the "New Day" button to finish for the day or start a new day.
 8. The game will compare your score to the previous day's score and display a message accordingly.
 
+## MVP Goals
+
+- As a player, I want the game to list out all the tasks somewhere and assign it to a number that I can input to recognize what task it is 
+- As a player, I would like for the score to increase when the player inputs a task number 
+- As a player, I'd like to see an animation or pop up when I score a 3 pointer
+- As a player, I would like to be informed with some indication when I input a task so that I know it worked 
+- As a player I would like to be able to restart the game when I press the reset button
+- As a player, I'd like to have a spot where I can input tasks 
+- As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.\*\*
+
+## Stretch Goals
+- As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
+- As a player, I would like to hear an audible swish sound when I score a basket.
+- As a player, I'd like to have a score of yourself from the day before after you hit the reset button. (next day button instead?)
+- As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
+- As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time 
+
+## Functionalty
+1. Gets reference to html elements 
+2. Initialize the variables 
+3. Function start() Hides the start game screen and displays the game screen.
+4. Function displayTutorialModal(): Handles the display of the tutorial modal when the tutorial button is clicked.
+5. Event listeners are added for the home button, submit button, new day button, add task button, and reset button.
+6. The submit button adds a task score to the tasks array, displays a score modal, updates the home score, and plays an audio.
+7. The new day button determines the game result (win, loss, or tie) and displays the corresponding modal.
+8. The task button and stat button display the task and stat modals, respectively.
+9. The window onclick event closes the task and stat modals when clicking outside or on the close button.
+10. Finally, the code updates the task list and stat list with the initial values stored in the tasks array.
+
 ## Next Steps
 
 - Implement a login system to allow users to save their progress and access it from different devices.
+- Add different skins for differnet sports
 - Add different difficulty levels to provide more challenge and engagement.
 - Introduce power-ups or bonuses that can be earned by completing specific tasks.
 - Enhance the visual and audio effects to make the game more immersive.
-- Implement a leaderboard to compare scores with other players.
-- Provide customization options for the game's appearance and theme.
+- Implement a leaderboard to compare scores with other players. Make the game online
+- When the day ends in a tie, go to a sudden death match where the player has to make a basket to win for the day
+
 
 By continuously improving and expanding the features of Task Buckets, we aim to create a comprehensive and enjoyable task management experience that motivates users to stay organized and achieve their goals.
+
+#References
+- ChatGPT
+- Bard
+- Unit 1 Material, specifically addEventListeners and array iterators.
+- YouTube Web Dev Simplified
