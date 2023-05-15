@@ -116,9 +116,7 @@ newDayButton.addEventListener("click", () => {
     }, 1800);
   }
 
-  // Set the opponent score to the previous home score.
   opponentScore.textContent = currentHomeScore;
-  // Reset the home score to 0.
   homeScore.textContent = 0;
    // Clear the statList.
    tasks.length = 0;
@@ -159,12 +157,10 @@ resetButton.addEventListener("click", function() {
   tasks = []; // reset the session array to the original tasks array
   taskList.innerHTML = ""; // display the original list of tasks
 });
-// When the task button is clicked, show the task screen modal
 taskButton.addEventListener("click", () => {
   taskModal.style.display = "block";
 });
 
-// When the user clicks on the close button or outside the modal, hide the task screen modal
 window.onclick = (event) => {
   if (event.target == taskModal || event.target.classList.contains("close")) {
     taskModal.style.display = "none";
