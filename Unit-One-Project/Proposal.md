@@ -1,56 +1,34 @@
-# King of the Task Court!
+**Task Buckets: A Task Tracking Game
+Description
+Task Buckets is a fun and interactive task tracking game designed to help you stay organized and increase your productivity. The game allows you to manage your tasks in a unique way by shooting a virtual basketball into a bucket to mark a task as completed.
 
-## Project Description 
+In Task Buckets, you can create a list of tasks for the day and assign them numbers. When you complete a task, you enter the corresponding task number and shoot the ball into the basket. The game keeps track of your completed tasks and displays your score.
 
-The game that I would like to create for my Unit 1 Assignment is a game called King of the Task Court. The game is designed to help you keep track of your daily tasks. The game is designed to resemble a basketball scoreboard to keep track of the tasks you accomplish. I want to have somewhere that has a layout of the tasks when you click on it, and when you input the number of the task, it adds one, two, or three points. I want it to be able to tell you the score at the end and each day you can vs yourself from the day before and try to score the same or more points. 
+Task Buckets provides a gamified approach to task management, making it more engaging and enjoyable to stay on top of your responsibilities. With its simple gameplay mechanics and intuitive interface, Task Buckets offers a fun and productive experience.
 
-## Wire Frames
+Technologies Used
+JavaScript
+HTML
+CSS
+Getting Started
+You can access Task Buckets by visiting the following link: Task Buckets Game
 
-![image]  https://ibb.co/9yvxjRH
+Instructions:
 
-**First Version:https://ibb.co/KLqTJ7X**
-
-
-
-**Initial Landing View**
-
-
-
-## User Stories
-
-#### MVP Goals
-
-- As a player, I want the game to list out all the tasks somewhere and assign it to a number that I can input to recognize what task it is 
-- As a player, I would like for the score to increase when the player inputs a task number 
-- As a player, I'd like to see an animation or pop up when I score a 3 pointer
-- As a player, I would like to be informed with some indication when I input a task so that I know it worked 
-- As a player I would like to be able to restart the game when I press the reset button
--As a player, I'd like to have a spot where I can input tasks 
-- As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.\*\*
-
-#### Stretch Goals
-
-- As a player, I would like a new high score animation when I win the game, so that I feel good about my victory
-- As a player, I would like to hear an audible swish sound when I score a basket.
--As a player, I'd like to have a score of yourself from the day before after you hit the reset button. (next day button instead?)
-- As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
--As a player, I'd like a timer of how much time I have left in the day &/or a display of the current time 
-
-
-
-**For Student Only**
-**(the opponent is yourself from the day before, the goal is to beat yourself from the day before. you are your biggest opponent)?**
-**(fouls take awway points? a foul is something you shouldn't do in the day like eat cake)?**
-**(the computer generates points and you have to try to beat that? thats the opponent. it generates points randomly every time you score.)?**
-**(4 Quarters? score resets each quarter to keep track of each quarter of the day)?**
-**(Rewards)**
-**(Crowd cheering when you score a basket)**
-**(Name IdeaTask Buckets)**
-
-
-errors 
-
-getting tasks button to close
-getting modal to pull up 
-getting animation to show up 
-input button kept showing result as 0. had to switch the lines around.
+Click on the "PLAY" button to start the game.
+Familiarize yourself with the game mechanics by reading the tutorial.
+Press the "Tasks" button to manage your task list. Add, remove, or reset tasks as needed.
+On the game screen, enter the task number in the input field and click "Shoot!" to mark it as completed.
+The home score represents the number of completed tasks.
+Click on the "Stats" button to view a list of completed tasks.
+When you are finished for the day or want to start a new day, click the "New Day" button.
+The game will compare your score to the previous day's score and display a message accordingly.
+Enjoy the game and improve your productivity!
+Next Steps
+Implement a login system to allow users to save their progress and access it from different devices.
+Add different difficulty levels to provide more challenge and engagement.
+Introduce power-ups or bonuses that can be earned by completing specific tasks.
+Enhance the visual and audio effects to make the game more immersive.
+Implement a leaderboard to compare scores with other players.
+Provide customization options for the game's appearance and theme.
+By continuously improving and expanding the features of Task Buckets, we aim to create a comprehensive and enjoyable task management experience that motivates users to stay organized and achieve their goals.
