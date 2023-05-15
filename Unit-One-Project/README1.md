@@ -26,6 +26,11 @@ Task Buckets is a fun and interactive task tracking game designed to help you st
 
 To access Task Buckets, visit the following link: [Task Buckets Game](link_to_the_game)
 
+## Images
+<img width="1433" alt="Screenshot 2023-05-15 at 11 30 17 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/d5786afa-2b99-4a73-b827-f5fd232cbecf">
+<img width="1438" alt="Screenshot 2023-05-15 at 11 30 32 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/dcf7c182-7990-4d58-8109-2ed3340930c2">
+<img width="1433" alt="Screenshot 2023-05-15 at 11 30 17 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/e4936e83-1542-427c-be21-f58ced8cdcf1">
+
 ## Instructions
 
 1. Click on the "PLAY" button to start the game.
