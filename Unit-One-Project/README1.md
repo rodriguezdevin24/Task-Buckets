@@ -24,7 +24,7 @@ Task Buckets is a fun and interactive task tracking game designed to help you st
 
 ## Getting Started
 
-To access Task Buckets, visit the following link: [Task Buckets Game](zippy-gecko-bdfb1d.netlify.app)
+To access Task Buckets, visit the following link: [Task Buckets Game](https://zippy-gecko-bdfb1d.netlify.app)
 
 ## Images
 <img width="1433" alt="Screenshot 2023-05-15 at 11 30 17 AM" src="https://github.com/rodriguezdevin24/devin-game-/assets/131619471/d5786afa-2b99-4a73-b827-f5fd232cbecf">
